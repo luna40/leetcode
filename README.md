@@ -5,6 +5,7 @@
 `code`
 
 ```javascript
+// using the rest parameter (...) to allow a function to take any arguments
 const f = createHelloWorld();
 console.log(f({}, null, 42)); //hello word
 ```
